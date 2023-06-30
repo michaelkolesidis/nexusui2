@@ -12,7 +12,7 @@
     "test": "jest",
     "release": "standard-version"
   },
-  "repository": "https://github.com/michaelkolesidis/nexustui.git",
+  "repository": "https://github.com/michaelkolesidis/nexusui2.git",
   "types": "dist/types/index.d.ts",
   "keywords": [
     "music",
@@ -29,9 +29,9 @@
   "author": "Michael Kolesidis",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/michaelkolesidis/nexustui/issues"
+    "url": "https://github.com/michaelkolesidis/nexusui2/issues"
   },
-  "homepage": "https://github.com/michaelkolesidis/nexustui",
+  "homepage": "https://github.com/michaelkolesidis/nexusui2",
   "dependencies": {
     "@types/waaclock": "^0.5.0"
   },
