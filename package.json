@@ -1,7 +1,7 @@
 {
-  "name": "nexustui",
+  "name": "nexusui2",
   "version": "1.0.0",
-  "description": "NexusTUI: Typed Web Audio Interfaces",
+  "description": "NexusUI2: Typed Web Audio Interfaces",
   "main": "dist/NexusUI.js",
   "scripts": {
     "serve": "npm run docserve",
@@ -14,7 +14,18 @@
   },
   "repository": "https://github.com/michaelkolesidis/nexustui.git",
   "types": "dist/types/index.d.ts",
-  "keywords": [],
+  "keywords": [
+    "music",
+    "ui",
+    "web-audio",
+    "ui-components",
+    "web-audio-library",
+    "computer-music",
+    "web-audio-api",
+    "nexusui",
+    "ui-controls",
+    "nexustui"
+  ],
   "author": "Michael Kolesidis",
   "license": "AGPL-3.0-or-later",
   "bugs": {

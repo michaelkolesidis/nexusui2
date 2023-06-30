@@ -1,10 +1,14 @@
-# NexusΤUI
+# NexusUI2
 
-NexusΤUI is a JavaScript toolkit of web audio interfaces and other helper methods for building instruments in the browser.
+**_NexusUI2_** (_NXUI2_) is a JavaScript toolkit of web audio interfaces and other helper methods for building instruments in the browser.
+
+## Background
 
 It is a fork of [NexusUI](https://github.com/nexus-js/ui) 2.2.0 + types from [Théis Bazin](https://github.com/tbazin).
 
-More info coming soon.
+## Information
+
+The documentation of NexusUI2 is not ready yet. In the meantime, if you need help you can visits the websites of NexusUI.
 
 For more info, see the [website](http://nexus-js.github.io/ui/).
 

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset='utf-8' />
-  <title>NexusUI API</title>
+  <title>NexusUI2 API</title>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
   <link rel="icon" type="image/png" href="../favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
@@ -24,7 +24,7 @@
 
   <div id="sidebar" class="menuClosed" onmouseover="document.body.style.overflow='hidden';" onmouseout="document.body.style.overflow='auto';">
 
-    <h2>NexusUI</h2>
+    <h2>NexusUI2</h2>
     <a href="#intro">Getting Started</a><br />
     <a href="#colors">Changing Colors</a><br />
     <a href="#rack">Creating a Rack</a><br />
@@ -248,7 +248,6 @@
     &nbsp;
     <h1 style="margin: 5px auto;width:100%;font-size:27pt;font-weight:700;">NexusUI</h1>
     <h2 style="margin: 10px auto 0px;width:100%;font-size:18pt;font-weight:normal">Web Audio Interfaces</h2>
-    <h3 style="margin: 10px auto 0px;width:100%;font-size:14pt;font-weight:normal">Version 2</h3>
 
     <div style="margin:0px auto">
 
@@ -257,7 +256,7 @@
 
 
       <p class="lib-overview">
-        NexusUI is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser.
+        NexusUI2 is a collection of HTML5 interfaces and Javascript helper functions to assist with building web audio instruments in the browser.
       </p>
 
       <p class="lib-overview">
@@ -266,7 +265,7 @@
       </p>
 
       <p class="lib-overview">
-        This toolkit is designed to help you rapidly prototype your musical ideas. It is lacking some features which would be useful for production –– for example, these interfaces are <b>not responsive</b> (they do not understand percentage widths and heights). NexusUI is an ongoing open-source
+        This toolkit is designed to help you rapidly prototype your musical ideas. It is lacking some features which would be useful for production –– for example, these interfaces are <b>not responsive</b> (they do not understand percentage widths and heights). NexusUI2 is an ongoing open-source
         project; please get in touch on GitHub if you would like to contribute.
       </p>
 
@@ -308,7 +307,7 @@
     <h5>Creating an Interface</h5>
 
     <p>
-      You can transform regular HTML elements into NexusUI interfaces (&lt;div&gt; is recommended). By default, the interface component will adopt the height and width of the target element as specified in your CSS or in the element's style. Alternatively, you can specify the interface component's
+      You can transform regular HTML elements into NexusUI2 interfaces (&lt;div&gt; is recommended). By default, the interface component will adopt the height and width of the target element as specified in your CSS or in the element's style. Alternatively, you can specify the interface component's
       size in JavaScript when you create it (see the API for each interface).
     </p>
 
@@ -380,7 +379,7 @@
     <h5>Listening for Interaction Events</h5>
 
     <p>
-      Every NexusUI interface fires an event function when the interface is interacted with or changed programatically through the interface's API. If you use Node.JS, this syntax should look familiar –– every NexusUI interface extends Node.js's built-in EventEmitter.
+      Every NexusUI2 interface fires an event function when the interface is interacted with or changed programatically through the interface's API. If you use Node.JS, this syntax should look familiar –– every NexusUI2 interface extends Node.js's built-in EventEmitter.
     </p>
 
     <pre><code class="language-js">
@@ -555,7 +554,7 @@ dial.on('change',function(v) {
     <h5>Using a Custom Attribute</h5>
 
     <p>
-      Nexus.Rack optionally lets you specify which attribute to look for ('nexus-ui' by default). This is useful for using NexusUI with React, which requires <i>data-</i> attribute prefixes.
+      Nexus.Rack optionally lets you specify which attribute to look for ('nexus-ui' by default). This is useful for using NexusUI2 with React, which requires <i>data-</i> attribute prefixes.
     </p>
 
     <p>
