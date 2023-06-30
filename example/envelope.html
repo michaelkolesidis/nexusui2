@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Musician's Toolkit</title>
+  <script src="../dist/NexusUI.js"></script>
+  <script src="../api/js/jquery.js"></script>
+  <script src="js/Tone9.js"></script>
+  <meta name="viewport" content="width=200, initial-scale=1">
+</head>
+<body style="margin:0;padding:0;">
+
+
+  <div style="font-size:25px;margin:10px;">
+    Testing Sandbox
+  </div>
+
+  <div id="target"></div>
+
+
+</body>
+<style>
+body {
+  font-family:helvetica;
+}
+[nexus-ui] {
+  margin:10px;
+  float:left;
+}
+#target {
+  width:500px;
+  height:500px;
+  border:dashed 2px #333;
+}
+</style>
+<script>
+
+  var thing = new Nexus.Add.Envelope('#target',{
+    size: [300,200],
+    points: [
+      { x: 0, y: 0, xMin: 0, xMax: 0.5, yMin:0, yMax: 0.8},
+      { x: 0.5, y: 0.5, xMin: 0.5, xMax: 1, yMin:0, yMax: 0.8}
+    ]
+  })
+
+
+
+
+
+</script>
+</html>

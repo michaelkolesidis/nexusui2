@@ -1,0 +1,56 @@
+{
+  "name": "nexustui",
+  "version": "1.0.0",
+  "description": "NexusTUI: Typed Web Audio Interfaces",
+  "main": "dist/NexusUI.js",
+  "scripts": {
+    "serve": "npm run docserve",
+    "build": "bash script/build",
+    "start": "script/watch",
+    "docgen": "node_modules/.bin/documentation build lib/** -f json -o api/api.json",
+    "docserve": "script/docserve-nix",
+    "test": "jest",
+    "release": "standard-version"
+  },
+  "repository": "https://github.com/michaelkolesidis/nexustui.git",
+  "types": "dist/types/index.d.ts",
+  "keywords": [],
+  "author": "Michael Kolesidis",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/michaelkolesidis/nexustui/issues"
+  },
+  "homepage": "https://github.com/michaelkolesidis/nexustui",
+  "dependencies": {
+    "@types/waaclock": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-jest": "^4.0.0",
+    "babel-loader": "^4.0.0",
+    "babelify": "^5.0.3",
+    "color-ops": "^2.0.0",
+    "documentation": "^5.3.5",
+    "es6ify": "^1.6.0",
+    "fuse": "^0.4.0",
+    "jest": "^0.1.37",
+    "jshint": "^2.6.3",
+    "jshint-loader": "^0.8.3",
+    "standard-version": "^8.0.1",
+    "uglify-js": "^2.4.16",
+    "waaclock": "^0.5.3",
+    "webpack": "^1.5.3"
+  },
+  "jest": {
+    "scriptPreprocessor": "./node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  }
+}
