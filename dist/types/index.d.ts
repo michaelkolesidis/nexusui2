@@ -31,6 +31,7 @@ import Oscilloscope from "./interfaces/oscilloscope";
 
 import WAAClock from "waaclock";
 import Interface from "./core/interface";
+import Rack from './core/rack'
 import type { InterfaceColorTarget } from "./core/interface";
 
 export function colors(): {
@@ -84,6 +85,8 @@ declare class NexusUI {
   Spectrogram: typeof Spectrogram;
   Meter: typeof Meter;
   Oscilloscope: typeof Oscilloscope;
+
+  Rack: typeof Rack
 }
 
 export default Nexus;
@@ -123,6 +126,7 @@ export type NexusEnvelope = Envelope;
 export type NexusSpectrogram = Spectrogram;
 export type NexusMeter = Meter;
 export type NexusOscilloscope = Oscilloscope;
+export type NexusRack = Rack
 
 export { MatrixPattern, MatrixValue } from "./models/matrix";
 export { MatrixCell } from "./interfaces/sequencer";
